@@ -10,8 +10,12 @@ declare_id!("ARDCbrxKAMA2pCBAAa5TUSi5SYMvobfPnHB97mu44EMY");
 pub mod apl_reward_distributor {
     use super::*;
 
-    pub fn init_reward_distributor<'key, 'accounts, 'remaining, 'info>(ctx: Context<'key, 'accounts, 'remaining, 'info, InitRewardDistributorCtx<'info>>, ix: InitRewardDistributorIx) -> Result<()> {
-        init_reward_distributor::handler(ctx, ix)
+    pub fn init_reward_distributor_mint<'key, 'accounts, 'remaining, 'info>(ctx: Context<'key, 'accounts, 'remaining, 'info, InitRewardDistributorMintCtx<'info>>, ix: InitRewardDistributorMintIx) -> Result<()> {
+        init_reward_distributor_mint::handler(ctx, ix)
+    }
+
+    pub fn init_reward_distributor_treasury<'key, 'accounts, 'remaining, 'info>(ctx: Context<'key, 'accounts, 'remaining, 'info, InitRewardDistributorTreasuryCtx<'info>>, ix: InitRewardDistributorTreasuryIx) -> Result<()> {
+        init_reward_distributor_treasury::handler(ctx, ix)
     }
 
     pub fn init_reward_entry(ctx: Context<InitRewardEntryCtx>) -> Result<()> {
