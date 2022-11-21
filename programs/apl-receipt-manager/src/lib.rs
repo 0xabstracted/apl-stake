@@ -4,7 +4,7 @@ pub mod state;
 
 use {anchor_lang::prelude::*, instructions::*};
 
-declare_id!("ARMm8GbQqVmq4jNw4tYZWSC2BMVdSD31PDVKd6tchJik");
+declare_id!("armaWk1KuccZpHdhky2x5Tkha6cP7s45fPa3ETcGX2e");
 
 #[program]
 pub mod apl_receipt_manager {

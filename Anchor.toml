@@ -4,12 +4,12 @@ solana_version = "1.9.13"
 
 [provider]
 cluster = "https://metaplex.devnet.rpcpool.com/"
-wallet = "/Users/bhargavveepuri/wallets/solana/solana-wallet_linux/ryaNsMVq6FaS4oYT6gXxKsPEzGqryWmMb2PQKABsSRX.json"
+wallet = "/Users/bhargavveepuri/wallets/solana/solana-wallet_linux/SALThRKa8JFD3XoGbLshzg61kaBHFFCeggDH8ydNEaE.json"
 
 
 [programs.devnet]
-apl_stake_pool = "ASPXjbyfki5TsXHu4eBmsqqhKNJLhPqJ4wj7gsgW18F6"
-apl_reward_distributor = "ARDCbrxKAMA2pCBAAa5TUSi5SYMvobfPnHB97mu44EMY"
-apl_receipt_manager = "ARMm8GbQqVmq4jNw4tYZWSC2BMVdSD31PDVKd6tchJik"
-apl_payment_manager = "APMT8qWbAUapzsBoxx1ACrt37JFWS76Bkn9PUre5ybyn"
+apl_stake_pool = "aspcC9JJWDxCC1yQSw4Pv2o95VyCEHP7ek4CvqKmBox"
+apl_reward_distributor = "ardJ1zpGCk4RrBz3cNAbN2Kg2VubpR1HPu2RFXm3Y3E"
+apl_receipt_manager = "armaWk1KuccZpHdhky2x5Tkha6cP7s45fPa3ETcGX2e"
+apl_payment_manager = "apmYJ4wgVkCm5AWYnuJCqr8eBbu7hm89DcLgQEkgbG2"
 

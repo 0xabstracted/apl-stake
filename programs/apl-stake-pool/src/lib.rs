@@ -4,7 +4,7 @@ pub mod state;
 
 use {anchor_lang::prelude::*, instructions::*};
 
-declare_id!("ASPXjbyfki5TsXHu4eBmsqqhKNJLhPqJ4wj7gsgW18F6");
+declare_id!("aspcC9JJWDxCC1yQSw4Pv2o95VyCEHP7ek4CvqKmBox");
 
 #[program]
 pub mod apl_stake_pool {

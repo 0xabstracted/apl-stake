@@ -4,7 +4,7 @@ pub mod state;
 
 use {anchor_lang::prelude::*, instructions::*};
 
-declare_id!("APMT8qWbAUapzsBoxx1ACrt37JFWS76Bkn9PUre5ybyn");
+declare_id!("apmYJ4wgVkCm5AWYnuJCqr8eBbu7hm89DcLgQEkgbG2");
 
 #[program]
 pub mod apl_payment_manager {
